@@ -6,18 +6,25 @@ void main() {
   double numeroDois = double.parse(stdin.readLineSync()!);
 
 
-  void somar(){
+  void soma(){
     print(numeroUm + numeroDois);
   }
-  void subtrair(){
+
+  void subtracao(){
     print(numeroUm - numeroDois);  
   }
-  void dividir(){
+
+  void divisao(){
     print(numeroUm / numeroDois);
   }
-  void multiplicar(){
+
+  void multiplicacao(){
     print(numeroUm * numeroDois);
   }
-  multiplicar();
+  soma();
+  subtracao();
+  divisao();
+  multiplicacao();
+
 
 }
