@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://dart.dev/assets/shared/dart-logo-for-shares.png?2](https://raw.githubusercontent.com/dart-lang/site-shared/master/src/_assets/image/dart/logo/64.png)" width="150" alt="Dart Logo">
+  <img src="https://raw.githubusercontent.com/dart-lang/site-shared/master/src/_assets/image/dart/logo/64.png" width="150" alt="Dart Logo">
 </p>
  # 🦋 Dart Sintaxe Projeto
 <p align="center">
