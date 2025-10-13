@@ -66,9 +66,8 @@ Dart
 Desenvolvido por gy 👩‍💻
 
 Aprendendo e praticando programação com Dart.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dart-lang/site-shared/master/src/_assets/image/dart/logo/64.png" width="150" alt="Dart Logo">
-</p>
+
 <p align="center"> <img src="https://img.shields.io/badge/feito%20com%20💙-por%20gy-blue" alt="Feito com amor por gy"> </p> 
+
 
 
