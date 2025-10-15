@@ -9,7 +9,7 @@ void main(){
     int idadeUm = int.parse(stdin.readLineSync()!);
     print("Digite outra idade:");
     int idadeDois = int.parse(stdin.readLineSync()!);
-    print("Digite uma idade:");
+    print("Digite  mais uma idade:");
     int idadeTres = int.parse(stdin.readLineSync()!);
 
     double media = (idadeUm + idadeDois + idadeTres) / 3; 
