@@ -4,13 +4,16 @@ import 'exercicios.dart' as ex1;
 import 'exercicios2.dart' as ex2;
 import 'exercicios3.dart' as ex3;
 import 'exercicios4.dart' as ex4;
+import 'exercicios5.dart' as ex5;
+import 'exercicios6.dart' as ex6;
 
 void main(){
 int opcao = 0;
 
   print("Escolha um exercicio:");
-  print("exercicio1- 1 /n exercicio2 - 2 ");
-  print("exercicio3- 3 /n exercicio4 - 4 ");
+  print("exercicio1- 1 / exercicio2 - 2 ");
+  print("exercicio3- 3 / exercicio4 - 4 ");
+  print("exercicio5- 5 / exercicio6 - 6 ");
 
 opcao = int.parse(stdin.readLineSync()!);
 
@@ -26,6 +29,12 @@ switch(opcao){
     break;
   case 4:
     ex4.main();
+    break;
+  case 5:
+    ex5.main();
+    break;
+  case 6:
+    ex6.main();
     break;
   default:
     print("Opção invalida!");
