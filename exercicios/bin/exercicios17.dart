@@ -30,7 +30,7 @@ void main(){
 
   String? validarOperacao( String? opcao , List<String> operacao){
     print("Digite uma  operação [deposito,retirada,transferencia,pagamento]:");
-    opcao = stdin.readLineSync()!;
+    opcao = stdin.readLineSync();
     if(operacao.contains(opcao)){
       return opcao;
     }else{
