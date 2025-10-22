@@ -1,40 +1,28 @@
-  // 4) Criando a função de depósito e fazendo sua validação
-  // Vamos continuar desenvolvendo o programa de banco.
-  // Agora, concentre-se na operação de depósito e escreva uma função em que o usuário,
-  // após digitar um valor numérico, o insere na conta. Lembre-se de validar se a entrada
-  // é um número positivo. Caso contrário, solicite novamente até que um valor válido seja fornecido. 
-import 'dart:io';
+// 5) Validação de métodos de pagamento em uma plataforma de e-commerce
+  // Você está desenvolvendo uma plataforma de e-commerce onde a pessoa usuária pode escolher
+  // entre diferentes métodos de pagamento como cartao, boleto, paypal e pix. Crie uma função
+  // que solicite à pessoa usuária o método de pagamento desejado e valide se a entrada é válida, solicitando novamente em caso de erro.
+  import 'dart:io';
 
 void main(){
+    List<String> metodoPagamento = <String>["cartao", "boleto", "paypal","pix"];
+    String? metodo;
 
-  List<String> operacao = <String>["deposito", "retirada", "transferencia", "pagamento"];
-  String? op;
-  op = validarOperacao(op, operacao);
-  double? valor;
-  valor = validarValor(valor);
-  print("Operação escolhida: $op, valor: $valor");
-  
-}
-
-  double? validarValor( double? val){
-    print("Digite um valor para operação :");
-    val = double.tryParse(stdin.readLineSync()!);
-    if(val == null || val <0 ){
-      print("Informe um valor valido");
-      return validarValor(val);
-    }else{
-      return val;
-    } 
-
+    metodo = validarMetodo(metodo, metodoPagamento);
+    print("Opção escolhida: $metodo");
+    
   }
 
-  String? validarOperacao( String? opcao , List<String> operacao){
-    print("Digite uma  operação [deposito,retirada,transferencia,pagamento]:");
-    opcao = stdin.readLineSync();
-    if(operacao.contains(opcao)){
-      return opcao;
+  String? validarMetodo( String? metodo, List<String> metodoPagamento){
+    print("Digite um metodo de pagamento ${metodoPagamento.toString()}");
+    metodo = stdin.readLineSync();
+
+    if(metodoPagamento.contains(metodo)){
+      return metodo;
     }else{
-      print("Operação invalida, tente novamente");
-      return validarOperacao(opcao, operacao);
+      print("Opção invalida!Tente novamente.");
+      return validarMetodo(metodo, metodoPagamento);
     }
+
   }
+
