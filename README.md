@@ -1,4 +1,4 @@
- # 🦋 Dart Sintaxe Projeto
+ # Dart Sintaxe Projeto
 <p align="center">
   <img src="https://img.shields.io/badge/language-Dart-blue.svg" alt="Linguagem Dart">
   <img src="https://img.shields.io/badge/version-1.0.0-lightgrey.svg" alt="Versão">
@@ -68,6 +68,7 @@ Desenvolvido por gy 👩‍💻
 Aprendendo e praticando programação com Dart.
 
 <p align="center"> <img src="https://img.shields.io/badge/feito%20com%20💙-por%20gy-blue" alt="Feito com amor por gy"> </p> 
+
 
 
 
